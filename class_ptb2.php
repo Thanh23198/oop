@@ -1,5 +1,4 @@
 <?php
-
 class QuadraticEquation
 {
     public $a;
@@ -26,7 +25,7 @@ class QuadraticEquation
 }
 
 $a = 1;
-$b = 5;
-$c = 5;
+$b = 4;
+$c = 4;
 $ptb2 = new QuadraticEquation($a, $b, $c);
 echo $ptb2->getRoot1();
